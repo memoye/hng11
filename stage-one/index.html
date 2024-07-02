@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memoye Brown</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="./src/script.js" defer></script>
+</head>
+
+<body>
+  <div class="day-time">
+    <span id="currentDay" data-testid="currentDay"></span>
+    <span id="currentTimeUTC" data-testid="currentTimeUTC"></span>
+  </div>
+  <header class="header">
+
+    <nav class="nav">
+      <ul>
+        <li class="logo"><a href="#">M</a></li>
+
+        <div>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#links">Links</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="text">
+        <h1 class="title">
+          Hello! I'm Brown <span data-testid="slackDisplayName">Memoye</span>
+        </h1>
+        <p> A Front-end Developer on a Growth Journey.</p>
+      </div>
+
+
+      <img class="image" src="./src/assets/Memoye_388x500.png" alt="Brown Memoye" width="388" height="500"
+        data-testid="slackProfilePicture">
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="title">About Me</h2>
+      <p>I am a passionate Front-end developer constantly striving to improve my craft. I'm currently focused on
+        mastering advanced React concepts and exploring exciting opportunities in the ever-evolving world of front-end
+        development.
+      </p>
+
+      <p><b>Over the next 2 years, I am focused on</b></p>
+
+      <dl>
+        <div>
+          <dt>Deepening my React Expertise</dt>
+          <dd>
+            I'm actively learning advanced React patterns and state management solutions to build performant and
+            scalable applications.
+          </dd>
+        </div>
+
+
+        <div>
+          <dt>Fostering a Collaborative Spirit</dt>
+          <dd>
+            I believe in the power of teamwork and am always eager to learn from experienced developers and collaborate
+            on challenging projects.
+          </dd>
+        </div>
+
+        <div>
+          <dt>Exploring New Horizons</dt>
+          <dd>
+            I'm constantly researching and experimenting with cutting-edge UI/UX practices and
+            potentially venturing into complementary frameworks like <b>Vue.js</b> or <b>Svelte</b>.
+          </dd>
+        </div>
+
+      </dl>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+
+        <h2>Contact Me</h2>
+        <p>I'm always open to connecting! Feel free to reach out if you have any project ideas or simply want to chat.
+        </p>
+        <address>
+          <a href="mailto:memoyebrown@gmail.com" data-testid="slackEmail">memoyebrown@gmail.com</a><br>
+          <a href="https://github.com/memoye">github.com/memoye</a>
+        </address>
+      </div>
+
+    </section>
+
+  </main>
+  <footer id="links" class="links">
+    <h3>Some useful links</h3>
+    <ul>
+      <li>
+        <a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a>
+        <span>&nbsp;- Expert Courses Just For You.</span>
+      </li>
+
+      <li>
+        <a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a>
+        <span>&nbsp;- The Quickest Way to Dominate Search Rankings.</span>
+      </li>
+
+      <li>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a>
+        <span>&nbsp;- Scrape any website, right from your desktop.</span>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
