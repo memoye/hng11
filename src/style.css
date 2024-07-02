@@ -105,7 +105,7 @@ a:hover {
 
 .day-time {
   background-color: hsl(240, 69%, 15%);
-  padding: 0.5em 1rem;
+  padding: 0.5em 1.5rem;
   color: white;
   font-weight: 400;
   font-size: 0.75rem;
@@ -365,7 +365,7 @@ footer ul a {
 
 @media (min-width: 1024px) {
   .day-time {
-    padding: 0.25rem 5rem;
+    padding: 0.25rem 6rem;
   }
 
   .hero {
