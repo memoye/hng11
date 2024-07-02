@@ -105,12 +105,12 @@ a:hover {
 
 .day-time {
   background-color: hsl(240, 69%, 15%);
-  padding: 0.5em 1em;
+  padding: 0.5em 1rem;
   color: white;
   font-weight: 400;
   font-size: 0.75rem;
   letter-spacing: 1.5px;
-  text-align: center;
+  text-align: right;
 }
 
 .header {
@@ -333,8 +333,9 @@ footer ul a {
 }
 
 @media (max-width: 340px) {
-  .nav ul div {
-    display: none;
+  .nav ul div li a {
+    padding: 0.25rem initial;
+    font-size: 0.85rem;
   }
 }
 
@@ -353,7 +354,7 @@ footer ul a {
   }
 
   .nav ul div li a {
-    padding: 0.25rem initial;
+    padding: 5px 10px;
     font-size: 0.85rem;
   }
 
@@ -363,6 +364,10 @@ footer ul a {
 }
 
 @media (min-width: 1024px) {
+  .day-time {
+    padding: 0.25rem 5rem;
+  }
+
   .hero {
     flex-direction: row;
     gap: 5rem;
